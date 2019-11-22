@@ -12,12 +12,12 @@
       </svg>
     </label>
     <div class="ae-container-fluid rk-topbar">
-      <h1 class="rk-logo"><a href="index.html">Jonathan Portafolio<sup>tm</sup></a></h1>
+      <h1 class="rk-logo"><a routerLink="">Jonathan Portafolio<sup>tm</sup></a></h1>
       <nav class="rk-navigation">
         <ul class="rk-menu">
-          <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Inicio</a>
+          <li routerLinkActive="active" class="rk-menu__item active"><a routerLink="home" class="rk-menu__link">Inicio</a>
           </li>
-          <li class="active rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portafolio</a>
+          <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portafolio</a>
           </li>
           <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">Blog</a>
           </li>
@@ -30,7 +30,7 @@
               </ul>
             </nav>
           </li>
-          <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contacto</a>
+          <li routerLinkActive="active" class="rk-menu__item"><a routerLink="about" class="rk-menu__link">Contacto</a>
           </li>
         </ul>
         <form class="rk-search">
