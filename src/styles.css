@@ -45,3 +45,8 @@
       animation-iteration-count: 1 !important;
     }
 }
+/*SVG Animation*/
+svg path,
+svg rect{
+  fill: black;
+}
