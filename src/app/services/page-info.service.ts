@@ -13,19 +13,16 @@ export class PageInfoService {
     this.loadTeam();
   }
   private loadInfo() {
-    console.log('Page service ready');
     // Leer el archivo JSON
     this.http.get('assets/data/data-page.json')
       .subscribe( (resp: InfoPage) => {
         this.info = resp;
-        console.log(resp);
       });
   }
   private loadTeam() {
     this.http.get('https://angular-html-6c9f8.firebaseio.com/equipo.json')
       .subscribe( (resp: any[]) => {
         this.team = resp;
-        console.log(resp);
       });
   }
 }
