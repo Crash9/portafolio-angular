@@ -18,6 +18,7 @@ export class ProductsService {
   }
 
   private loadProducts() {
+    // tslint:disable-next-line: no-shadowed-variable
     return new Promise( (resolve, reject) => {
       this.http.get('https://angular-html-6c9f8.firebaseio.com/productos_idx.json')
         .subscribe(( resp: any[] ) => {
