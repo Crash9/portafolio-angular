@@ -8,6 +8,6 @@ Actualmente la página se encuentra hosteada en https://crash9.github.io/portafo
 
 ## Herramientas utilizadas
 
-Front End: Angular, TypeScript, Node.js.
+Front End: Angular, TypeScript, Node.js, HTML5, CSS3 y Javascript.
 
 Back End: Firebase.
